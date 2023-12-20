@@ -9,3 +9,16 @@ run `write_cluster_to_excel.ipynb`, this will summarize of cluster information a
 After summarize the cluster information, it would be able to see the large clusters that contain high percentage of sequencces. Build a `txt` file which stores the id of selected clusters by ascending order and the different groups of ids should also be stored by the ascending order of files. Then run `write_consensus_by_cluster.ipynb` to get the consensus for each sample.
 ## geneious analysis
 After get the consensus sequences, import them to the geneious software and then reorient the consensus sequences, align them and build the phylogenetic trees
+
+# Dependency
+## for python script
+```
+python 3.11.5
+Biopython 1.78
+pandas 2.1.1
+```
+## for bash file
+```
+NanoFilt 2.8.0
+vsearch 2.22.1
+```
